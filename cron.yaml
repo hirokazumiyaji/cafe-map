@@ -1,0 +1,4 @@
+cron:
+- description: daily summary job
+  url: /regist
+  schedule: 5th friday of december 23:00

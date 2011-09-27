@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>cafe map</title>
+</head>
+<body>
+	<form action="/regist" method="post" enctype="multipart/form-data">
+		<p>
+			<div class="label">
+				<label>Csv File</label>
+			</div>
+			<div>
+				<input type="file" name="file" size="30" />
+			</div>
+		</p>
+		<p>
+			<div>
+				<select name="datatype" id="datatype" size="1">
+					<option value="Stores">Stores</option>
+					<option value="Stations">Stations</option>
+				</select>
+			</div>
+		</p>
+		<p><input type="submit" value="register"></p>
+	</form>
+</body>
+</html>
