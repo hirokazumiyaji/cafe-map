@@ -3,9 +3,10 @@
 
 from google.appengine.ext import db
 
+
 class Stores(db.Model):
-	station = db.StringProperty()
-	genre   = db.StringProperty()
-	name    = db.StringProperty()
-	lat     = db.StringProperty()
-	lng     = db.StringProperty()
+    station = db.StringProperty()
+    genre = db.StringProperty()
+    name = db.StringProperty()
+    lat = db.StringProperty()
+    lng = db.StringProperty()
