@@ -1,912 +1,912 @@
 [
     {
         "genre": "starbucks", 
-        "lat": "35.679869", 
-        "lng": "139.769608", 
+        "lat": 35.679869, 
+        "lng": 139.769608, 
         "name": "\u516b\u91cd\u6d32\u5730\u4e0b\u8857\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.679944", 
-        "lng": "139.763362", 
+        "lat": 35.679944, 
+        "lng": 139.763362, 
         "name": "\u4e38\u306e\u5185\u4e09\u83f1\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.681513", 
-        "lng": "139.7705", 
+        "lat": 35.681513, 
+        "lng": 139.7705, 
         "name": "\u516b\u91cd\u6d32\u3055\u304f\u3089\u901a\u308a\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.678174", 
-        "lng": "139.768936", 
+        "lat": 35.678174, 
+        "lng": 139.768936, 
         "name": "\u516b\u91cd\u6d32\u30a2\u30fc\u30d0\u30f3\u30b9\u30af\u30a8\u30a2\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.678174", 
-        "lng": "139.768936", 
+        "lat": 35.678174, 
+        "lng": 139.768936, 
         "name": "\u4e38\u306e\u5185\u65b0\u6771\u4eac\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.687121", 
-        "lng": "139.765467", 
+        "lat": 35.687121, 
+        "lng": 139.765467, 
         "name": "\u5927\u624b\u753a\u6771\u4eac\u30b5\u30f3\u30b1\u30a4\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.681096", 
-        "lng": "139.763631", 
+        "lat": 35.681096, 
+        "lng": 139.763631, 
         "name": "\u4e38\u306e\u5185\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.686298", 
-        "lng": "139.76422", 
+        "lat": 35.686298, 
+        "lng": 139.76422, 
         "name": "\u5927\u624b\u753a\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.683016", 
-        "lng": "139.768417", 
+        "lat": 35.683016, 
+        "lng": 139.768417, 
         "name": "JR\u6771\u4eac\u99c5\u65e5\u672c\u6a4b\u53e3\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.685276", 
-        "lng": "139.767056", 
+        "lat": 35.685276, 
+        "lng": 139.767056, 
         "name": "\u65b0\u5927\u624b\u753a\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.682707", 
-        "lng": "139.764325", 
+        "lat": 35.682707, 
+        "lng": 139.764325, 
         "name": "\u65b0\u4e38\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.683824", 
-        "lng": "139.768522", 
+        "lat": 35.683824, 
+        "lng": 139.768522, 
         "name": "\u6771\u4eac\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3\u30b7\u30c6\u30a3 \u30b5\u30d4\u30a2\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.679077", 
-        "lng": "139.763103", 
+        "lat": 35.679077, 
+        "lng": 139.763103, 
         "name": "\u4e38\u306e\u5185\u30d1\u30fc\u30af\u30d3\u30eb\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.683016", 
-        "lng": "139.768417", 
+        "lat": 35.683016, 
+        "lng": 139.768417, 
         "name": "JR\u6771\u4eac\u99c5 \u516b\u91cd\u6d32\u5317\u53e3\u5e97", 
-        "station": "\u6771\u4eac\u99c5"
+        "station_id": 25
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.671194", 
-        "lng": "139.760354", 
+        "lat": 35.671194, 
+        "lng": 139.760354, 
         "name": "\u9280\u5ea7\u30b3\u30ea\u30c9\u30fc\u901a\u308a\u5e97", 
-        "station": "\u6709\u697d\u753a\u99c5"
+        "station_id": 32
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.677299", 
-        "lng": "139.762873", 
+        "lat": 35.677299, 
+        "lng": 139.762873, 
         "name": "\u4e38\u306e\u5185\u65b0\u6771\u4eac\u30d3\u30eb\u5e97", 
-        "station": "\u6709\u697d\u753a\u99c5"
+        "station_id": 32
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.675025", 
-        "lng": "139.761712", 
+        "lat": 35.675025, 
+        "lng": 139.761712, 
         "name": "\u6709\u697d\u753a\u30d3\u30eb\u5e97", 
-        "station": "\u6709\u697d\u753a\u99c5"
+        "station_id": 32
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.672247", 
-        "lng": "139.761695", 
+        "lat": 35.672247, 
+        "lng": 139.761695, 
         "name": "\u9280\u5ea7\u30d5\u30a1\u30a4\u30d6\u5e97", 
-        "station": "\u6709\u697d\u753a\u99c5"
+        "station_id": 32
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.673092", 
-        "lng": "139.75992", 
+        "lat": 35.673092, 
+        "lng": 139.75992, 
         "name": "\u65e5\u6bd4\u8c37\u30b7\u30e3\u30f3\u30c6\u5e97", 
-        "station": "\u6709\u697d\u753a\u99c5"
+        "station_id": 32
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.674394", 
-        "lng": "139.76384", 
+        "lat": 35.674394, 
+        "lng": 139.76384, 
         "name": "TSUTAYA \u6709\u697d\u753a\u30de\u30eb\u30a4\u5e97", 
-        "station": "\u6709\u697d\u753a\u99c5"
+        "station_id": 32
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.66677", 
-        "lng": "139.759687", 
+        "lat": 35.66677, 
+        "lng": 139.759687, 
         "name": "\u65b0\u6a4b\u99c5\u524d\u5e97", 
-        "station": "\u65b0\u6a4b\u99c5"
+        "station_id": 11
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.66607", 
-        "lng": "139.760493", 
+        "lat": 35.66607, 
+        "lng": 139.760493, 
         "name": "\u3086\u308a\u304b\u3082\u3081\u65b0\u6a4b\u99c5\u5e97", 
-        "station": "\u65b0\u6a4b\u99c5"
+        "station_id": 11
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.665473", 
-        "lng": "139.76109", 
+        "lat": 35.665473, 
+        "lng": 139.76109, 
         "name": "\u6c50\u7559\u30b7\u30c6\u30a3\u30bb\u30f3\u30bf\u30fc\u5e97", 
-        "station": "\u65b0\u6a4b\u99c5"
+        "station_id": 11
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.66317", 
-        "lng": "139.761279", 
+        "lat": 35.66317, 
+        "lng": 139.761279, 
         "name": "\u307a\u30c7\u30a3\u6c50\u7559\u5e97", 
-        "station": "\u65b0\u6a4b\u99c5"
+        "station_id": 11
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.66499", 
-        "lng": "139.762432", 
+        "lat": 35.66499, 
+        "lng": 139.762432, 
         "name": "\u30ab\u30ec\u30c3\u30bf\u6c50\u7559\u5e97", 
-        "station": "\u65b0\u6a4b\u99c5"
+        "station_id": 11
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.651569", 
-        "lng": "139.757705", 
+        "lat": 35.651569, 
+        "lng": 139.757705, 
         "name": "\u6d5c\u677e\u753a\u6771\u829d\u30d3\u30eb\u5e97", 
-        "station": "\u6d5c\u677e\u753a\u99c5"
+        "station_id": 29
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.656885", 
-        "lng": "139.752219", 
+        "lat": 35.656885, 
+        "lng": 139.752219, 
         "name": "\u829d\u5927\u9580\u5e97", 
-        "station": "\u6d5c\u677e\u753a\u99c5"
+        "station_id": 29
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.626294", 
-        "lng": "139.742062", 
+        "lat": 35.626294, 
+        "lng": 139.742062, 
         "name": "\u54c1\u5ddd\u30a4\u30f3\u30bf\u30fc\u30b7\u30c6\u30a3\u5e97", 
-        "station": "\u54c1\u5ddd\u99c5"
+        "station_id": 28
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.623386", 
-        "lng": "139.748876", 
+        "lat": 35.623386, 
+        "lng": 139.748876, 
         "name": "\u5929\u738b\u6d32\u5e97", 
-        "station": "\u54c1\u5ddd\u99c5"
+        "station_id": 28
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.633329", 
-        "lng": "139.740001", 
+        "lat": 35.633329, 
+        "lng": 139.740001, 
         "name": "JR\u6771\u6d77 \u54c1\u5ddd\u99c5\u5e97", 
-        "station": "\u54c1\u5ddd\u99c5"
+        "station_id": 28
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.633329", 
-        "lng": "139.740001", 
+        "lat": 35.633329, 
+        "lng": 139.740001, 
         "name": "JR\u6771\u6d77 \u54c1\u5ddd\u99c5\u30e9\u30c1\u5185\u5e97", 
-        "station": "\u54c1\u5ddd\u99c5"
+        "station_id": 28
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.626294", 
-        "lng": "139.742062", 
+        "lat": 35.626294, 
+        "lng": 139.742062, 
         "name": "\u54c1\u5ddd\u30a4\u30f3\u30bf\u30fc\u30b7\u30c6\u30a3\u5e97", 
-        "station": "\u5317\u54c1\u5ddd\u99c5"
+        "station_id": 30
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.619397", 
-        "lng": "139.730808", 
+        "lat": 35.619397, 
+        "lng": 139.730808, 
         "name": "\u30b2\u30fc\u30c8\u30b7\u30c6\u30a3\u5927\u5d0e\u5e97", 
-        "station": "\u5927\u5d0e\u99c5"
+        "station_id": 19
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.623702", 
-        "lng": "139.722936", 
+        "lat": 35.623702, 
+        "lng": 139.722936, 
         "name": "\u897f\u4e94\u53cd\u7530\u5e97", 
-        "station": "\u4e94\u53cd\u7530\u99c5"
+        "station_id": 4
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.625582", 
-        "lng": "139.724578", 
+        "lat": 35.625582, 
+        "lng": 139.724578, 
         "name": "\u30ec\u30df\u30a3\u4e94\u53cd\u7530\u5e97", 
-        "station": "\u4e94\u53cd\u7530\u99c5"
+        "station_id": 4
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.634336", 
-        "lng": "139.71582", 
+        "lat": 35.634336, 
+        "lng": 139.71582, 
         "name": "\u30a2\u30c8\u30ec\u76ee\u9ed2\uff11\u5e97", 
-        "station": "\u76ee\u9ed2\u99c5"
+        "station_id": 31
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.634173", 
-        "lng": "139.713398", 
+        "lat": 35.634173, 
+        "lng": 139.713398, 
         "name": "\u76ee\u9ed2\u6a29\u4e4b\u52a9\u5742\u5e97", 
-        "station": "\u76ee\u9ed2\u99c5"
+        "station_id": 31
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.645312", 
-        "lng": "139.69756", 
+        "lat": 35.645312, 
+        "lng": 139.69756, 
         "name": "\u4e2d\u76ee\u9ed2\u5c71\u624b\u901a\u308a\u5e97", 
-        "station": "\u4e2d\u76ee\u9ed2\u99c5"
+        "station_id": 22
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.643602", 
-        "lng": "139.699077", 
+        "lat": 35.643602, 
+        "lng": 139.699077, 
         "name": "\u4e2d\u76ee\u9ed2\u99c5\u524d\u5e97", 
-        "station": "\u4e2d\u76ee\u9ed2\u99c5"
+        "station_id": 22
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.646129", 
-        "lng": "139.70799", 
+        "lat": 35.646129, 
+        "lng": 139.70799, 
         "name": "\u6075\u6bd4\u5bff\u30e6\u30cb\u30aa\u30f3\u30d3\u30eb\u5e97", 
-        "station": "\u6075\u6bd4\u5bff\u99c5"
+        "station_id": 2
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.646574", 
-        "lng": "139.710314", 
+        "lat": 35.646574, 
+        "lng": 139.710314, 
         "name": "\u30a2\u30c8\u30ec\u6075\u6bd4\u5bff\u5e97", 
-        "station": "\u6075\u6bd4\u5bff\u99c5"
+        "station_id": 2
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.64238", 
-        "lng": "139.71342", 
+        "lat": 35.64238, 
+        "lng": 139.71342, 
         "name": "\u6075\u6bd4\u5bff\u30ac\u30fc\u30c7\u30f3\u30d7\u30ec\u30a4\u30b9\u5e97", 
-        "station": "\u6075\u6bd4\u5bff\u99c5"
+        "station_id": 2
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.660252", 
-        "lng": "139.696607", 
+        "lat": 35.660252, 
+        "lng": 139.696607, 
         "name": "\u6e0b\u8c37\u6587\u5316\u6751\u901a\u308a\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.656461", 
-        "lng": "139.705459", 
+        "lat": 35.656461, 
+        "lng": 139.705459, 
         "name": "\u6e0b\u8c373\u4e01\u76ee\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.658792", 
-        "lng": "139.705237", 
+        "lat": 35.658792, 
+        "lng": 139.705237, 
         "name": "\u6e0b\u8c37\u30af\u30ed\u30b9\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.658433", 
-        "lng": "139.699098", 
+        "lat": 35.658433, 
+        "lng": 139.699098, 
         "name": "\u6e0b\u8c37\u30de\u30fc\u30af\u30b7\u30c6\u30a3\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.664008", 
-        "lng": "139.699345", 
+        "lat": 35.664008, 
+        "lng": 139.699345, 
         "name": "\u6e0b\u8c37\u516c\u5712\u901a\u308a\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.659083", 
-        "lng": "139.701734", 
+        "lat": 35.659083, 
+        "lng": 139.701734, 
         "name": "\u6e0b\u8c37\u6771\u6025\u6771\u6a2a\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.660572", 
-        "lng": "139.707161", 
+        "lat": 35.660572, 
+        "lng": 139.707161, 
         "name": "\u6e0b\u8c372\u4e01\u76ee\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.662233", 
-        "lng": "139.698462", 
+        "lat": 35.662233, 
+        "lng": 139.698462, 
         "name": "\u6e0b\u8c37\u30aa\u30eb\u30ac\u30f3\u5742\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.663713", 
-        "lng": "139.700943", 
+        "lat": 35.663713, 
+        "lng": 139.700943, 
         "name": "\u6e0b\u8c37\u30d5\u30a1\u30a4\u30e4\u30fc\u901a\u308a\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.656456", 
-        "lng": "139.699418", 
+        "lat": 35.656456, 
+        "lng": 139.699418, 
         "name": "\u6e0b\u8c37\u30bb\u30eb\u30ea\u30a2\u30f3\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.665482", 
-        "lng": "139.703506", 
+        "lat": 35.665482, 
+        "lng": 139.703506, 
         "name": "\u795e\u5bae\u524d6\u4e01\u76ee\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.65993", 
-        "lng": "139.700318", 
+        "lat": 35.65993, 
+        "lng": 139.700318, 
         "name": "SHIBUYA TSUTAYA\u5e97", 
-        "station": "\u6e0b\u8c37\u99c5"
+        "station_id": 8
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.670221", 
-        "lng": "139.706345", 
+        "lat": 35.670221, 
+        "lng": 139.706345, 
         "name": "\u539f\u5bbf\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.66476", 
-        "lng": "139.711705", 
+        "lat": 35.66476, 
+        "lng": 139.711705, 
         "name": "\u30a2\u30af\u30bb\u30b9\u8868\u53c2\u9053\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.666991", 
-        "lng": "139.706708", 
+        "lat": 35.666991, 
+        "lng": 139.706708, 
         "name": "\u8868\u53c2\u9053B-SIDE\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.663713", 
-        "lng": "139.700943", 
+        "lat": 35.663713, 
+        "lng": 139.700943, 
         "name": "\u6e0b\u8c37\u30d5\u30a1\u30a4\u30e4\u30fc\u901a\u308a\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.67802", 
-        "lng": "139.705933", 
+        "lat": 35.67802, 
+        "lng": 139.705933, 
         "name": "\u5317\u53c2\u9053\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.672382", 
-        "lng": "139.702992", 
+        "lat": 35.672382, 
+        "lng": 139.702992, 
         "name": "\u660e\u6cbb\u795e\u5bae\u524d\u30e1\u30c8\u30ed\u30d4\u30a2\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.665482", 
-        "lng": "139.703506", 
+        "lat": 35.665482, 
+        "lng": 139.703506, 
         "name": "\u795e\u5bae\u524d6\u4e01\u76ee\u5e97", 
-        "station": "\u539f\u5bbf\u99c5"
+        "station_id": 3
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.68761", 
-        "lng": "139.700386", 
+        "lat": 35.68761, 
+        "lng": 139.700386, 
         "name": "\u65b0\u5bbf\u30b5\u30b6\u30f3\u30c6\u30e9\u30b9\u5e97", 
-        "station": "\u4ee3\u3005\u6728\u99c5"
+        "station_id": 18
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.68656", 
-        "lng": "139.698931", 
+        "lat": 35.68656, 
+        "lng": 139.698931, 
         "name": "\u65b0\u5bbf\u30de\u30a4\u30f3\u30ba\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u4ee3\u3005\u6728\u99c5"
+        "station_id": 18
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.67802", 
-        "lng": "139.705933", 
+        "lat": 35.67802, 
+        "lng": 139.705933, 
         "name": "\u5317\u53c2\u9053\u5e97", 
-        "station": "\u4ee3\u3005\u6728\u99c5"
+        "station_id": 18
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.682805", 
-        "lng": "139.701433", 
+        "lat": 35.682805, 
+        "lng": 139.701433, 
         "name": "\u4ee3\u3005\u6728\u5e97", 
-        "station": "\u4ee3\u3005\u6728\u99c5"
+        "station_id": 18
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691974", 
-        "lng": "139.706494", 
+        "lat": 35.691974, 
+        "lng": 139.706494, 
         "name": "\u65b0\u5bbf3\u4e01\u76ee\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.68761", 
-        "lng": "139.700386", 
+        "lat": 35.68761, 
+        "lng": 139.700386, 
         "name": "\u65b0\u5bbf\u30b5\u30b6\u30f3\u30c6\u30e9\u30b9\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695017", 
-        "lng": "139.689012", 
+        "lat": 35.695017, 
+        "lng": 139.689012, 
         "name": "\u897f\u65b0\u5bbf\u4e09\u4e95\u30d3\u30eb\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.68656", 
-        "lng": "139.698931", 
+        "lat": 35.68656, 
+        "lng": 139.698931, 
         "name": "\u65b0\u5bbf\u30de\u30a4\u30f3\u30ba\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.687135", 
-        "lng": "139.696553", 
+        "lat": 35.687135, 
+        "lng": 139.696553, 
         "name": "\u65b0\u5bbf\u5357\u53e3\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690446", 
-        "lng": "139.701747", 
+        "lat": 35.690446, 
+        "lng": 139.701747, 
         "name": "\u65b0\u5bbf\u30c0\u30a4\u30a2\u30f3\u30d3\u30eb\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.692418", 
-        "lng": "139.689576", 
+        "lat": 35.692418, 
+        "lng": 139.689576, 
         "name": "\u65b0\u5bbf\u30b0\u30ea\u30fc\u30f3\u30bf\u30ef\u30fc\u30d3\u30eb\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.688916", 
-        "lng": "139.702533", 
+        "lat": 35.688916, 
+        "lng": 139.702533, 
         "name": "\u65b0\u5bbf\u65b0\u5357\u53e3\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.689207", 
-        "lng": "139.6993", 
+        "lat": 35.689207, 
+        "lng": 139.6993, 
         "name": "\u30eb\u30df\u30cd\u65b0\u5bbf\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.692215", 
-        "lng": "139.697206", 
+        "lat": 35.692215, 
+        "lng": 139.697206, 
         "name": "\u65b0\u5bbf\u30a8\u30eb\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695948", 
-        "lng": "139.700111", 
+        "lat": 35.695948, 
+        "lng": 139.700111, 
         "name": "\u897f\u6b66\u65b0\u5bbfPePe\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.689949", 
-        "lng": "139.697406", 
+        "lat": 35.689949, 
+        "lng": 139.697406, 
         "name": "\u65b0\u5bbf\u897f\u53e3\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691324", 
-        "lng": "139.701144", 
+        "lat": 35.691324, 
+        "lng": 139.701144, 
         "name": "\u30eb\u30df\u30cd\u30a8\u30b9\u30c8\u65b0\u5bbf\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695595", 
-        "lng": "139.700969", 
+        "lat": 35.695595, 
+        "lng": 139.700969, 
         "name": "\u65b0\u5bbf\u30b5\u30d6\u30ca\u30fc\u30c9\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690993", 
-        "lng": "139.70403", 
+        "lat": 35.690993, 
+        "lng": 139.70403, 
         "name": "\u65b0\u5bbf\u30de\u30eb\u30a4\u672c\u99282\u968e\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691638", 
-        "lng": "139.704616", 
+        "lat": 35.691638, 
+        "lng": 139.704616, 
         "name": "\u65b0\u5bbfIsetan Girl\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691901", 
-        "lng": "139.693912", 
+        "lat": 35.691901, 
+        "lng": 139.693912, 
         "name": "\u65b0\u5bbf\u4e09\u4e95\u30d3\u30eb\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.693015", 
-        "lng": "139.695414", 
+        "lat": 35.693015, 
+        "lng": 139.695414, 
         "name": "\u65b0\u5bbf\u91ce\u6751\u30d3\u30eb\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690993", 
-        "lng": "139.70403", 
+        "lat": 35.690993, 
+        "lng": 139.70403, 
         "name": "\u65b0\u5bbf\u30de\u30eb\u30a4\u672c\u99288\u968e\u5e97", 
-        "station": "\u65b0\u5bbf\u99c5"
+        "station_id": 13
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691974", 
-        "lng": "139.706494", 
+        "lat": 35.691974, 
+        "lng": 139.706494, 
         "name": "\u65b0\u5bbf3\u4e01\u76ee\u5e97", 
-        "station": "\u65b0\u5bbf3\u4e01\u76ee\u99c5"
+        "station_id": 12
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695948", 
-        "lng": "139.700111", 
+        "lat": 35.695948, 
+        "lng": 139.700111, 
         "name": "\u897f\u6b66\u65b0\u5bbfPePe\u5e97", 
-        "station": "\u65b0\u5bbf3\u4e01\u76ee\u99c5"
+        "station_id": 12
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690993", 
-        "lng": "139.70403", 
+        "lat": 35.690993, 
+        "lng": 139.70403, 
         "name": "\u65b0\u5bbf\u30de\u30eb\u30a4\u672c\u99282\u968e\u5e97", 
-        "station": "\u65b0\u5bbf3\u4e01\u76ee\u99c5"
+        "station_id": 12
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691638", 
-        "lng": "139.704616", 
+        "lat": 35.691638, 
+        "lng": 139.704616, 
         "name": "\u65b0\u5bbfIsetan Girl\u5e97", 
-        "station": "\u65b0\u5bbf3\u4e01\u76ee\u99c5"
+        "station_id": 12
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690993", 
-        "lng": "139.70403", 
+        "lat": 35.690993, 
+        "lng": 139.70403, 
         "name": "\u65b0\u5bbf\u30de\u30eb\u30a4\u672c\u99288\u968e\u5e97", 
-        "station": "\u65b0\u5bbf3\u4e01\u76ee\u99c5"
+        "station_id": 12
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695948", 
-        "lng": "139.700111", 
+        "lat": 35.695948, 
+        "lng": 139.700111, 
         "name": "\u897f\u6b66\u65b0\u5bbfPePe\u5e97", 
-        "station": "\u65b0\u5bbf\u897f\u53e3\u99c5"
+        "station_id": 14
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695017", 
-        "lng": "139.689012", 
+        "lat": 35.695017, 
+        "lng": 139.689012, 
         "name": "\u897f\u65b0\u5bbf\u4e09\u4e95\u30d3\u30eb\u5e97", 
-        "station": "\u897f\u65b0\u5bbf\u99c5"
+        "station_id": 16
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.692418", 
-        "lng": "139.689576", 
+        "lat": 35.692418, 
+        "lng": 139.689576, 
         "name": "\u65b0\u5bbf\u30b0\u30ea\u30fc\u30f3\u30bf\u30ef\u30fc\u30d3\u30eb\u5e97", 
-        "station": "\u897f\u65b0\u5bbf\u99c5"
+        "station_id": 16
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.692215", 
-        "lng": "139.697206", 
+        "lat": 35.692215, 
+        "lng": 139.697206, 
         "name": "\u65b0\u5bbf\u30a8\u30eb\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u897f\u65b0\u5bbf\u99c5"
+        "station_id": 16
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.693015", 
-        "lng": "139.695414", 
+        "lat": 35.693015, 
+        "lng": 139.695414, 
         "name": "\u65b0\u5bbf\u91ce\u6751\u30d3\u30eb\u5e97", 
-        "station": "\u897f\u65b0\u5bbf\u99c5"
+        "station_id": 16
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691974", 
-        "lng": "139.706494", 
+        "lat": 35.691974, 
+        "lng": 139.706494, 
         "name": "\u65b0\u5bbf3\u4e01\u76ee\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690446", 
-        "lng": "139.701747", 
+        "lat": 35.690446, 
+        "lng": 139.701747, 
         "name": "\u65b0\u5bbf\u30c0\u30a4\u30a2\u30f3\u30d3\u30eb\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.688916", 
-        "lng": "139.702533", 
+        "lat": 35.688916, 
+        "lng": 139.702533, 
         "name": "\u65b0\u5bbf\u65b0\u5357\u53e3\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.689207", 
-        "lng": "139.6993", 
+        "lat": 35.689207, 
+        "lng": 139.6993, 
         "name": "\u30eb\u30df\u30cd\u65b0\u5bbf\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.692215", 
-        "lng": "139.697206", 
+        "lat": 35.692215, 
+        "lng": 139.697206, 
         "name": "\u65b0\u5bbf\u30a8\u30eb\u30bf\u30ef\u30fc\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695948", 
-        "lng": "139.700111", 
+        "lat": 35.695948, 
+        "lng": 139.700111, 
         "name": "\u897f\u6b66\u65b0\u5bbfPePe\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.691324", 
-        "lng": "139.701144", 
+        "lat": 35.691324, 
+        "lng": 139.701144, 
         "name": "\u30eb\u30df\u30cd\u30a8\u30b9\u30c8\u65b0\u5bbf\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695595", 
-        "lng": "139.700969", 
+        "lat": 35.695595, 
+        "lng": 139.700969, 
         "name": "\u65b0\u5bbf\u30b5\u30d6\u30ca\u30fc\u30c9\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690993", 
-        "lng": "139.70403", 
+        "lat": 35.690993, 
+        "lng": 139.70403, 
         "name": "\u65b0\u5bbf\u30de\u30eb\u30a4\u672c\u99282\u968e\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690993", 
-        "lng": "139.70403", 
+        "lat": 35.690993, 
+        "lng": 139.70403, 
         "name": "\u65b0\u5bbf\u30de\u30eb\u30a4\u672c\u99288\u968e\u5e97", 
-        "station": "\u897f\u6b66\u65b0\u5bbf\u99c5"
+        "station_id": 17
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.682805", 
-        "lng": "139.701433", 
+        "lat": 35.682805, 
+        "lng": 139.701433, 
         "name": "\u4ee3\u3005\u6728\u5e97", 
-        "station": "\u5357\u65b0\u5bbf\u99c5"
+        "station_id": 27
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.713074", 
-        "lng": "139.704093", 
+        "lat": 35.713074, 
+        "lng": 139.704093, 
         "name": "\u897f\u6b66\u9ad8\u7530\u99ac\u5834\u99c5\u5e97", 
-        "station": "\u9ad8\u7530\u99ac\u5834\u99c5"
+        "station_id": 6
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.712205", 
-        "lng": "139.706787", 
+        "lat": 35.712205, 
+        "lng": 139.706787, 
         "name": "\u9ad8\u7530\u99ac\u5834\u65e9\u7a32\u7530\u901a\u308a\u5e97", 
-        "station": "\u9ad8\u7530\u99ac\u5834\u99c5"
+        "station_id": 6
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.727912", 
-        "lng": "139.71178", 
+        "lat": 35.727912, 
+        "lng": 139.71178, 
         "name": "\u6c60\u888b\u660e\u6cbb\u901a\u308a\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.727031", 
-        "lng": "139.712408", 
+        "lat": 35.727031, 
+        "lng": 139.712408, 
         "name": "\u5357\u6c60\u888b\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.729518", 
-        "lng": "139.718463", 
+        "lat": 35.729518, 
+        "lng": 139.718463, 
         "name": "\u6c60\u888b\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u30b7\u30c6\u30a3 \u30a2\u30eb\u30d1\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.731", 
-        "lng": "139.708728", 
+        "lat": 35.731, 
+        "lng": 139.708728, 
         "name": "\u6c60\u888b\u897f\u53e3\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.73042", 
-        "lng": "139.712752", 
+        "lat": 35.73042, 
+        "lng": 139.712752, 
         "name": "\u6c60\u888b\u30b7\u30e7\u30c3\u30d4\u30f3\u30b0\u30d1\u30fc\u30af\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.749311", 
-        "lng": "139.691412", 
+        "lat": 35.749311, 
+        "lng": 139.691412, 
         "name": "\u65e5\u672c\u5927\u5b66\u677f\u6a4b\u75c5\u9662\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.730851", 
-        "lng": "139.715433", 
+        "lat": 35.730851, 
+        "lng": 139.715433, 
         "name": "\u6c60\u888b\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u901a\u308a\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.731378", 
-        "lng": "139.707631", 
+        "lat": 35.731378, 
+        "lng": 139.707631, 
         "name": "\u30de\u30eb\u30a4\u30b7\u30c6\u30a3\u6c60\u888b\u5e97", 
-        "station": "\u6c60\u888b\u99c5"
+        "station_id": 21
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.729518", 
-        "lng": "139.718463", 
+        "lat": 35.729518, 
+        "lng": 139.718463, 
         "name": "\u6c60\u888b\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u30b7\u30c6\u30a3 \u30a2\u30eb\u30d1\u5e97", 
-        "station": "\u6771\u6c60\u888b\u99c5"
+        "station_id": 26
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.730851", 
-        "lng": "139.715433", 
+        "lat": 35.730851, 
+        "lng": 139.715433, 
         "name": "\u6c60\u888b\u30b5\u30f3\u30b7\u30e3\u30a4\u30f3\u901a\u308a\u5e97", 
-        "station": "\u6771\u6c60\u888b\u99c5"
+        "station_id": 26
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.732334", 
-        "lng": "139.728712", 
+        "lat": 35.732334, 
+        "lng": 139.728712, 
         "name": "\u5927\u585a\u99c5\u524d\u5e97", 
-        "station": "\u5927\u585a\u99c5"
+        "station_id": 20
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.738198", 
-        "lng": "139.760779", 
+        "lat": 35.738198, 
+        "lng": 139.760779, 
         "name": "\u30a2\u30c8\u30ec\u30f4\u30a3\u7530\u7aef\u5e97", 
-        "station": "\u7530\u7aef\u99c5"
+        "station_id": 24
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.710549", 
-        "lng": "139.775882", 
+        "lat": 35.710549, 
+        "lng": 139.775882, 
         "name": "\u30de\u30eb\u30a4\u30b7\u30c6\u30a3\u4e0a\u91ce\u5e97", 
-        "station": "\u4e0a\u91ce\u99c5"
+        "station_id": 9
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.713896", 
-        "lng": "139.777343", 
+        "lat": 35.713896, 
+        "lng": 139.777343, 
         "name": "\u30a2\u30c8\u30ec\u4e0a\u91ce\u5e97", 
-        "station": "\u4e0a\u91ce\u99c5"
+        "station_id": 9
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.710549", 
-        "lng": "139.775882", 
+        "lat": 35.710549, 
+        "lng": 139.775882, 
         "name": "\u30de\u30eb\u30a4\u30b7\u30c6\u30a3\u4e0a\u91ce\u5e97", 
-        "station": "\u4eac\u6210\u4e0a\u91ce\u99c5"
+        "station_id": 1
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.713896", 
-        "lng": "139.777343", 
+        "lat": 35.713896, 
+        "lng": 139.777343, 
         "name": "\u30a2\u30c8\u30ec\u4e0a\u91ce\u5e97", 
-        "station": "\u4eac\u6210\u4e0a\u91ce\u99c5"
+        "station_id": 1
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.707882", 
-        "lng": "139.775585", 
+        "lat": 35.707882, 
+        "lng": 139.775585, 
         "name": "\u5fa1\u5f92\u753a\u6625\u65e5\u901a\u308a\u5e97", 
-        "station": "\u4e0a\u91ce\u5e83\u5c0f\u8def\u99c5"
+        "station_id": 10
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.707882", 
-        "lng": "139.775585", 
+        "lat": 35.707882, 
+        "lng": 139.775585, 
         "name": "\u5fa1\u5f92\u753a\u6625\u65e5\u901a\u308a\u5e97", 
-        "station": "\u5fa1\u5f92\u753a\u99c5"
+        "station_id": 5
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.707882", 
-        "lng": "139.775585", 
+        "lat": 35.707882, 
+        "lng": 139.775585, 
         "name": "\u5fa1\u5f92\u753a\u6625\u65e5\u901a\u308a\u5e97", 
-        "station": "\u4ef2\u5fa1\u5f92\u753a\u99c5"
+        "station_id": 23
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.695717", 
-        "lng": "139.76763", 
+        "lat": 35.695717, 
+        "lng": 139.76763, 
         "name": "\u6de1\u8def\u753a\u99c5\u524d\u5e97", 
-        "station": "\u79cb\u8449\u539f\u99c5"
+        "station_id": 7
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.697772", 
-        "lng": "139.77338", 
+        "lat": 35.697772, 
+        "lng": 139.77338, 
         "name": "\u79cb\u8449\u539f\u99c5\u524d\u5e97", 
-        "station": "\u79cb\u8449\u539f\u99c5"
+        "station_id": 7
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.69858", 
-        "lng": "139.773108", 
+        "lat": 35.69858, 
+        "lng": 139.773108, 
         "name": "\u30a2\u30c8\u30ec\u79cb\u8449\u539f\uff11\u5e97", 
-        "station": "\u79cb\u8449\u539f\u99c5"
+        "station_id": 7
     }, 
     {
         "genre": "starbucks", 
-        "lat": "35.690742", 
-        "lng": "139.764886", 
+        "lat": 35.690742, 
+        "lng": 139.764886, 
         "name": "\u5185\u795e\u7530\u5e97", 
-        "station": "\u795e\u7530\u99c5"
+        "station_id": 15
     }
 ]

@@ -1,0 +1,24 @@
+target: xls:///store.xlsx#ステーション
+
+handler:
+  type: json
+  path: station.json
+  indent: 4
+  sort_keys: True
+
+fields:
+  - column: id
+    name: ID
+    type: int
+
+  - column: name
+    name: 駅名
+    type: char
+
+  - column: lat
+    name: 緯度
+    type: float
+
+  - column: lng
+    name: 経度
+    type: float

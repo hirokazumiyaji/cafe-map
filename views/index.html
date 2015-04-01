@@ -1,262 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>cafe map</title>
-	<style type='text/css'>
-		body {
-	    	background:#aaa;
-	    	font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
-	    	color:#000;
-	    	margin:20px auto;
-	    	text-align:center;
-	    	line-height:1.5em;
-	    	width:1500px;
-		}
-		h1, h2, h3, h4, h5, h6 {
-	    	font-family:"Hiragino Kaku Gothic Pro",  Meiryo, sans-serif;
-	    	font-weight:lighter;
-		}
-		a:link, a:visited {
-	    	color:#c00;
-	    	text-decoration:none;
-		}
-		a:hover {
-	    	color:#0cc;
-		}
-		header, nav, section, footer {
-	    	display:block;
-	    	-webkit-border-radius: 8px;
-	    	-moz-border-radius: 8px;
-	    	border-radius: 8px;
-	    	-webkit-box-shadow: 0px 0px 4px #666;
-	    	-moz-box-shadow: 0px 0px 4px #666;
-	    	box-shadow: 0px 0px 4px #666;
-	    	border: 1px solid #d3d3d3;
-	    	background-color: #fff;
-	    	margin:5px;
-	    	padding: 0 20px 10px 20px;
-	    	font-size: 12pt;
-	    	color: #000;
-	    	text-align: left;
-		}
-		header {
-	    	text-align:center;
-	    	padding:30px;
-	    	background-image: -moz-linear-gradient(top, #888, #333);
-	    	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #888), color-stop(1.0, #333));
-	    	background-color: #444;
-	    	border:none;
-	    	color:#fff;
-	    	text-shadow: 0px 0px 4px #000000;
-		}
-		header h1, header h2, header h3, header h4, header h5, header h6, header li, header p {
-	    	font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
-		}
-		header h1 {
-	    	font-size:2.3em;
-	    	text-transform:none;
-	    	letter-spacing:0em;
-		}
-		header h2 {
-	    	margin:-10px 0px 20px;
-	    	font-size:1.3em;
-		}
-		header ul {
-	    	padding:0px;
-	    	list-style-type:none;
-	    	display:inline;
-		}
-		header li {
-	    	margin:0px 10px;
-	    	padding:0px;
-	    	list-style-type:none;
-	    	display:inline;
-		}
-		header a:link, nav a:visited {
-	    	font-weight:normal;
-		}
-		nav {
-	    	float:right;
-	    	width:250px;
-			height:800px;
-		}
-		nav h1 {
-	    	font-size:1.4em;
-		}
-		section {
-	    	float:right;
-	    	width:1300px;
-			height:800px;
-	    	text-align:left;
-			margin-top:10px;
-	    	margin-bottom:10px;
-		}
-		section h1, nav h1 {
-	    	-webkit-border-radius: 4px;
-	    	-moz-border-radius: 4px;
-	    	border-radius: 4px;
-	    	background-color:#444;
-	    	color:#fff;
-	    	padding:10px;
-	    	margin:10px -10px;
-	    	text-shadow:1px 1px 5px #000;
-		}
-		section ul {
-	    	padding:0px;
-	    	list-style:none;
-	    	border-top:1px solid #e7e2d7;
-	    	margin:14px 0px;
-		}
-		section li {
-	    	margin:0px;
-	    	padding:0px;
-	    	list-style:none;
-		}
-		section li a:link, section li a:visited {
-	    	float:left;
-	    	width:96%;
-	    	padding:3px 1%;
-	    	border-bottom:1px solid #e7e2d7;
-		}
-		section li a:hover {
-	    	background:#f2f1ec;
-		}
-		section p {
-	    	font-size:0.9em;
-		}
-		article {
-	    	margin:0 0 30px 0;
-		}
-		footer {
-	    	clear:both !important;
-	    	padding:10px;
-	    	background-color: #444;
-	    	border:none;
-	    	color:#fff;
-	    	font-size:0.8em;
-	    	text-align:center;
-		}
-		footer a {
-	    	margin:0px 5px;
-		}
-	</style>
-	<script type='text/javascript' src='http://www.google.com/jsapi'></script>
-	<script type='text/javascript'>google.load('jquery', '1.3.2');</script>
-	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&language=ja' charset='UTF-8'></script>
-	<script type='text/javascript'>
-	var httpObj;
-	var map;
-	function detectBrowser() {
-		var useragent = navigator.userAgent;
-		var mapdiv = document.getElementById("map_canvas");
-		var servicediv = document.getElementById("service");
-		if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
-		    servicediv.style.display = "none";
-	        mapdiv.style.width = '100%';
-	        mapdiv.style.height = '100%';
-	    }
-	}
-
-	function createMap() {
-		var latlng = new google.maps.LatLng(35, 135);
-	    var options = {
-	        zoom: 5,
-	        center: latlng,
-	        mapTypeId: google.maps.MapTypeId.ROADMAP
-	    };
-	    map = new google.maps.Map(document.getElementById("map_canvas"), options);
-	}
-
-	function createXMLHttpRequest(){
-	    // See http://en.wikipedia.org/wiki/XMLHttpRequest
-	    // Provide the XMLHttpRequest class for IE 5.x-6.x:
-	    if( typeof XMLHttpRequest == "undefined" ) XMLHttpRequest = function() {
-	        try { return new ActiveXObject("Msxml2.XMLHTTP.6.0") } catch(e) {}
-	        try { return new ActiveXObject("Msxml2.XMLHTTP.3.0") } catch(e) {}
-	        try { return new ActiveXObject("Msxml2.XMLHTTP") } catch(e) {}
-	        try { return new ActiveXObject("Microsoft.XMLHTTP") } catch(e) {}
-	        throw new Error( "This browser does not support XMLHttpRequest." )
-	    };
-	    return new XMLHttpRequest();
-	}
-
-	function searchStore() {
-	    httpObj = createXMLHttpRequest();
-	    var requestStation = document.getElementById('station').value;
-	    var regStation = new RegExp(".*駅");
-	    if (!requestStation.match(regStation)) {
-	        requestStation += "駅";
-	    }
-
-	    var query = "station=" + requestStation + "&genre=" + document.getElementById('genre').value;
-	    if(httpObj) {
-	        httpObj.onreadystatechange = requestCallBack;
-	        httpObj.open("GET", "/search?" + query, true);
-	        httpObj.send(null);
-	    }
-	}
-
-	function requestCallBack() {
-	    if((httpObj.readyState == 4) && (httpObj.status == 200)) {
-	        var responseData = eval("(" + httpObj.responseText + ")");
-	        map.setCenter(new google.maps.LatLng(parseFloat(responseData.stations.lat), parseFloat(responseData.stations.lng)));
-			map.setZoom(15);
-	        for(var i = 0; i < responseData.stores.length; i++) {
-	            var latlng = new google.maps.LatLng(parseFloat(responseData.stores[i].lat), parseFloat(responseData.stores[i].lng));
-	            var image;
-	            if (responseData.stores[i].genre == "starbucks") {
-	                image = "http://www.starbucks.co.jp/common/images/p_logo.gif";
-	            } else if (responseData.stores[i].genre == "tullys") {
-	                image = "http://tullys.co.jp/images/index_h1.gif";
-	            } else if (responseData.stores[i].genre == "excelsior") {
-	                image = "";
-	            } else if (responseData.stores[i].genre == "doutor") {
-	                image = "";
-	            } else {
-	                image = "";
-	            }
-				if (image == "") {
-					var marker = new google.maps.Marker({
-		                position: latlng,
-		                map: map,
-		                title: responseData.stores[i].name
-		            });
-				} else {
-					var marker = new google.maps.Marker({
-		                position: latlng,
-		                map: map,
-		                icon: image,
-		                title: responseData.stores[i].name
-		            });
-				}
-	        }
-	    }
-	}
-
-	function initialize() {
-	    detectBrowser();
-	    createMap();
-	}
-	</script>
-
+  <meta charset="utf-8">
+  <title>cafe map</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
-<body onload="initialize()">
-		<header>
-				<label>Cafe Map</label>
-				<input type="text" placeholder="駅検索" name="station" value="" id="station" style="width: 200px;">
-				<select name="genre" id="genre" size="1">
-					<option value="all">all</option>
-					<option value="starbucks">starbucks</option>
-					<option value="tullys">tully's</option>
-					<option value="excelsior">excelsior</option>
-					<option value="doutor">doutor</option>
-					<option value="becks">beck's</option>
-				</select>
-				<button class="search" onclick="searchStore()">search</button>
-		<header>
-		<section id="map_canvas"></section>	
-		<footer>Copyright (c) cafe map 2010.</footer>
-	</div>
+<body>
+  <header>
+    <label>Cafe Map</label>
+    <input type="text" placeholder="駅検索" name="station" value="" id="station" style="width: 200px;">
+    <select name="genre" id="genre" size="1">
+      <option value="all">all</option>
+      <option value="starbucks">starbucks</option>
+      <!--
+      <option value="tullys">tully's</option>
+      <option value="excelsior">excelsior</option>
+      <option value="doutor">doutor</option>
+      <option value="becks">beck's</option>-->
+    </select>
+    <button id="button-search" class="search">search</button>
+  </header>
+  <section id="map-canvas"></section>
+  <footer>Copyright (c) cafe map 2015.</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false&language=ja"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

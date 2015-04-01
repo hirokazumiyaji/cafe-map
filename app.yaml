@@ -1,12 +1,21 @@
 application: cafe-map
-version: 1
+version: 2-0-0
 runtime: python27
 api_version: 1
 threadsafe: true
 
 handlers:
-    - url: /.*
-      script: main.py
-    - url: /remote_api
-      script: $PYTHON_LIB/google/appengine/ext/remote_api/handler.py
-      login: admin
+  - url: /assets/css
+    static_dir: assets/css
+  - url: /assets/images
+    static_dir: assets/images
+  - url: /assets/js
+    static_dir: assets/js
+  - url: /.*
+    script: main.app
+
+libraries:
+  - name: webapp2
+    version: latest
+  - name: jinja2
+    version: latest

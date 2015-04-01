@@ -1,0 +1,32 @@
+target: xls:///store.xlsx#ストア
+
+handler:
+  type: json
+  path: store.json
+  indent: 4
+  sort_keys: True
+
+fields:
+  - column: station_id
+    name: 駅名
+    type: foreignkey
+    relation:
+      column: id
+      from: station.yaml
+      key: name
+
+  - column: name
+    name: 店名
+    type: char
+
+  - column: genre
+    name: ジャンル
+    type: char
+
+  - column: lat
+    name: 緯度
+    type: float
+
+  - column: lng
+    name: 経度
+    type: float

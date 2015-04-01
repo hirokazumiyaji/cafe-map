@@ -1,33 +1,32 @@
 #!/usr/bin/env python
 # coding: utf-8
 from __future__ import absolute_import, unicode_literals, print_function
-import csv
-import logging
+from itertools import groupby
 import os
-import sys
-import wsgiref.handlers
-from cStringIO import StringIO
 
-from google.appengine.api import urlfetch
+try:
+    import json
+except ImportError:
+    from django.utils import simplejson as json
 
-from django.utils import simplejson
-from google.appengine.ext import db, webapp
-from google.appengine.ext.webapp import template
-from google.appengine.ext.webapp.util import run_wsgi_app
+import webapp2
+import jinja2
+
 from models import Station, Store
 
-ROOT_DIR = os.path.dirname(__file__)
+template = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
+    extensions=['jinja2.ext.autoescape'],
+    autoescape=True)
 
 
-class MainHandler(webapp.RequestHandler):
+class RootHandler(webapp2.RequestHandler):
 
     def get(self):
-        data = {}
-        path = os.path.join(root_dir, "views/index.html")
-        self.response.out.write(template.render(path, data))
+        self.response.write(template.get_template("views/index.html").render({}))
 
 
-class SearchHandler(webapp.RequestHandler):
+class SearchHandler(webapp2.RequestHandler):
 
     def get(self):
         station_name = self.request.get("station")
@@ -35,59 +34,46 @@ class SearchHandler(webapp.RequestHandler):
 
         station = Station.get(station_name)
 
-        self.response.content_type = "application/json"
-        simplejson.dump(
-            station.to_json(genre),
-            self.response.out,
-            ensure_ascii=False)
+        self.response.headers[b"Content-Type"] = b"application/json; charset=utf-8"
+        data = json.dumps(station.to_dict(genre), ensure_ascii=False)
+        self.response.write(data)
 
 
-class RegistHandler(webapp.RequestHandler):
-
-    def get(self):
-        path = os.path.join(root_dir, "views/regist.html")
-        self.response.out.write(template.render(path, {}))
+class StoreHandler(webapp2.RequestHandler):
 
     def post(self):
-        try:
-            datatype = self.request.get("datatype")
-            csvBuffer = csv.reader(StringIO(self.request.get("file")))
-            if datatype == "Stores":
-                for row in csvBuffer:
-                    store = Store(
-                        station=row[0].decode("utf-8"),
-                        name=row[1].decode("utf-8"),
-                        genre=unicode(row[2], "cp932"),
-                        lat=unicode(row[3], "cp932"),
-                        lng=unicode(row[4], "cp932")
-                    )
-                    store.put()
-            else:
-                for row in csvBuffer:
-                    station = Station(
-                        name=row[0].decode("utf-8"),
-                        lat=row[1].decode("utf-8"),
-                        lng=unicode(row[2], "cp932")
-                    )
-                    station.put()
-        except Exception, e:
-          pass
+        import urllib
+        data = urllib.unquote(self.request.body)
+        data = json.loads(data)
+        stations = data["stations"]
+        stores = data["stores"]
 
-        self.redirect("/regist")
+        stores_by_station = {}
+        for k, v in groupby(stores, lambda x: x["station_id"]):
+            stores_by_station[k] = list(v)
 
+        for station in stations:
+            _stores = stores_by_station[station["id"]]
+            s = Station(name=station["name"].encode("utf-8"),
+                        lat=station["lat"],
+                        lng=station["lng"],
+                        stores=[
+                            Store(name=x["name"].encode("utf-8"),
+                                  genre=x["genre"].encode("utf-8"),
+                                  lat=x["lat"],
+                                  lng=x["lng"])
+                            for x in _stores
+                        ])
+            s.put()
 
-application = webapp.WSGIApplication([("/", MainHandler),
-                                      ("/search", SearchHandler),
-                                      ("/regist", RegistHandler)],
-                                     debug=True)
+        self.response.headers[b"Content-Type"] = b"application/json; charset=utf-8"
+        self.response.write(json.dumps({"status": "success"}, ensure_ascii=False))
 
 
-logging.getLogger().setLevel(logging.DEBUG)
-
-
-def main():
-    run_wsgi_app(application)
-
-
-if __name__ == "__main__":
-    main()
+app = webapp2.WSGIApplication(
+    [
+        ("/", RootHandler),
+        ("/search", SearchHandler),
+        ("/store", StoreHandler),
+    ],
+    debug=True)
