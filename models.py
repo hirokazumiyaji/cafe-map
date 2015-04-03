@@ -1,15 +1,20 @@
 # coding: utf-8
 from __future__ import absolute_import, unicode_literals, print_function
-from google.appengine.ext import ndb
+from google.appengine.ext import db
 
 from functional import cached_property
 
 
-class Store(ndb.Model):
-    name = ndb.StringProperty()
-    genre = ndb.StringProperty()
-    lat = ndb.FloatProperty()
-    lng = ndb.FloatProperty()
+class Store(db.Model):
+    station_id = db.IntegerProperty()
+    name = db.StringProperty()
+    genre = db.StringProperty()
+    lat = db.FloatProperty()
+    lng = db.FloatProperty()
+
+    @classmethod
+    def find(cls, station_id):
+        return db.GqlQuery("SELECT * FROM Store WHERE station_id = :1", station_id)
 
     def to_dict(self):
         return {
@@ -19,15 +24,19 @@ class Store(ndb.Model):
         }
 
 
-class Station(ndb.Model):
-    name = ndb.StringProperty()
-    lat = ndb.FloatProperty()
-    lng = ndb.FloatProperty()
-    stores = ndb.StructuredProperty(Store, repeated=True)
+class Station(db.Model):
+    id = db.IntegerProperty()
+    name = db.StringProperty()
+    lat = db.FloatProperty()
+    lng = db.FloatProperty()
+
+    @property
+    def stores(self):
+        return list(Store.find(self.id))
 
     @classmethod
     def get(cls, name):
-        return cls.query(Station.name==name.encode('utf-8')).get()
+        return db.GqlQuery("SELECT * FROM Station WHERE name = :1", name).fetch(1)[0]
 
     def to_dict(self, genre=None):
         return {

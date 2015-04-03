@@ -53,17 +53,18 @@ class StoreHandler(webapp2.RequestHandler):
             stores_by_station[k] = list(v)
 
         for station in stations:
-            _stores = stores_by_station[station["id"]]
-            s = Station(name=station["name"].encode("utf-8"),
+            s = Station(id=station["id"],
+                        name=station["name"],
                         lat=station["lat"],
-                        lng=station["lng"],
-                        stores=[
-                            Store(name=x["name"].encode("utf-8"),
-                                  genre=x["genre"].encode("utf-8"),
-                                  lat=x["lat"],
-                                  lng=x["lng"])
-                            for x in _stores
-                        ])
+                        lng=station["lng"])
+            s.put()
+
+        for store in stores:
+            s = Store(station_id=store["station_id"],
+                      name=store["name"],
+                      genre=store["genre"],
+                      lat=store["lat"],
+                      lng=store["lng"])
             s.put()
 
         self.response.headers[b"Content-Type"] = b"application/json; charset=utf-8"
