@@ -119,7 +119,7 @@
         .success(function (status, data) {
           var i, len, ref, results, store;
           map.setCenter(new google.maps.LatLng(data.station.lat, data.station.lng));
-          map.setZoom(20);
+          map.setZoom(15);
           ref = data.stores;
           results = [];
           for (i = 0, len = ref.length; i < len; i++) {

@@ -1,7 +1,5 @@
 body {
-  background: #AAAAAA;
   font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
-  color: #000000;
   margin:20px auto;
   text-align: center;
   line-height: 1.5em;
@@ -12,37 +10,25 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: lighter;
 }
 a:link, a:visited {
-  color: #CC0000;
   text-decoration: none;
 }
 a:hover {
-  color: #00CCCC;
 }
 header, nav, section, footer {
   display: block;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 4px #666666;
-  -moz-box-shadow: 0px 0px 4px #666666;
-  box-shadow: 0px 0px 4px #666666;
-  border: 1px solid #D3D3D3;
-  background-color: #FFFFFF;
   margin: 5px;
   padding: 0 20px 10px 20px;
   font-size: 12pt;
-  color: #000000;
   text-align: left;
 }
 header {
   text-align: center;
   padding: 30px;
-  background-image: -moz-linear-gradient(top, #888888, #333333);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #888888), color-stop(1.0, #333333));
-  background-color: #444444;
   border: none;
-  color: #FFFFFF;
-  text-shadow: 0px 0px 4px #000000;
+  font-size: 30px;
 }
 header h1, header h2, header h3, header h4, header h5, header h6, header li, header p {
   font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
@@ -89,11 +75,8 @@ section h1, nav h1 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: #444444;
-  color: #FFFFFF;
   padding: 10px;
   margin: 10px -10px;
-  text-shadow: 1px 1px 5px #000000;
 }
 section ul {
   padding: 0px;
@@ -110,13 +93,27 @@ section li a:link, section li a:visited {
   float: left;
   width: 96%;
   padding: 3px 1%;
-  border-bottom: 1px solid #E7E2D7;
 }
 section li a:hover {
-  background: #F2F1EC;
 }
 section p {
   font-size: 0.9em;
+}
+.search-text {
+  width: 200px;
+  padding: 8px 20px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.search-button {
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  background-color: #7F6363;
 }
 article {
   margin: 0 0 30px 0;
@@ -124,9 +121,8 @@ article {
 footer {
   clear: both !important;
   padding: 10px;
-  background-color: #444444;
   border: none;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 0.8em;
   text-align: center;
 }
